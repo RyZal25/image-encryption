@@ -1,3 +1,8 @@
+#IMPORTANT!!!!!!!
+#If you want the result file is organized, better place them in separated folder
+#you can set up the folder location below (marked with ☆☆☆)
+
+
 # Import the required Libraries
 from tkinter import *
 from tkinter import ttk, filedialog, messagebox
@@ -11,10 +16,10 @@ from Crypto.Util.Padding import unpad
 
 import os
 
-#Create an instance for the tkinter frame
+#Create instance for the tkinter frame
 win = Tk()
 
-#Specifies the Geometry for the application window
+#Geometry spec for the application window
 win.geometry("800x600")
 win.title("Image Encryption")
 
@@ -81,14 +86,14 @@ def enc(alamat, nama, key):
 
         # write the output of the encryption in the desired file name and desired location
         output = (nama.get() + '.enc')
-        output_file = ('ur path storage\image_encryption\Encryption Result\{}'.format(output))
+        output_file = ('YOUR PATH STORAGE\image_encryption\Encryption Result\{}'.format(output)) #☆☆☆
         keys, encrypted_data = double_encrypt(data)
         with open(output_file, "wb") as f:
             f.write(encrypted_data)
 
         # save the encryption key in the Key folder and try to hide it (Admin only) after encrypting
         key_name = key.get() + '.txt'
-        output_key_file = ('ur path storage\image_encryption\Key\{}'.format(key_name))
+        output_key_file = ('YOUR PATH STORAGE\image_encryption\Key\{}'.format(key_name)) #☆☆☆
         with open(output_key_file, "w") as f:
             f.write("{}\n".format(keys))
             messagebox.showinfo("Yeay!", "File encrypted successfully!")
@@ -123,7 +128,7 @@ def dec(path, output):
         # describes the output in the form of a file name and displays the results of the file decryption
         output_file = output.get()  # try to match the extension with the initial file
         decrypted_data = double_decrypt(data, keys)
-        with open('ur path storage\image_encryption\Encryption Result\{}'.format(output_file), "wb") as f:
+        with open('YOUR PATH STORAGE\image_encryption\Encryption Result\{}'.format(output_file), "wb") as f: #☆☆☆
             f.write(decrypted_data)
         messagebox.showinfo("Yeay!", "File successfully decrypted!")
 
@@ -139,7 +144,7 @@ parent.pack(pady=(0,10))
 
 #Radiobutton to choose what to do
 R1 = Radiobutton(parent, text="Encryption", variable=var, value=1, command=frame1).pack(side='left')
-R2 = Radiobutton(parent, text="Dekripsi", variable=var, value=2, command=frame2).pack(side='left')
+R2 = Radiobutton(parent, text="Decryption", variable=var, value=2, command=frame2).pack(side='left')
 
 encrypt_frame = Frame(win)
 decrypt_frame = Frame(win)
