@@ -11,9 +11,10 @@ A GUIDE TO IMAGE ENCRYPTION PROGRAMS.
 NOTES:
 
 1. File formats supported are only .png, .jpg and .jpeg image extensions.
-2. Encryption, decryption and key results are saved in the specified default folder.
-3. The key must be well hidden so that others cannot decipher it
-4. The program can only process one image/file.enc at a time. So if you want to encode different images you have to change the source image periodically
+2. Change the main directory of Encryption and Decryiption with ur local directory
+3. Encryption, decryption and key results are saved in the specified default folder.
+4. The key must be well hidden so that others cannot decipher it
+5. The program can only process one image/file.enc at a time. So if you want to encode different images you have to change the source image periodically
 
 Encryption step:
 
