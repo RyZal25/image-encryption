@@ -11,7 +11,7 @@ A GUIDE TO IMAGE ENCRYPTION PROGRAMS.
 NOTES:
 
 1. File formats supported are only .png, .jpg and .jpeg image extensions.
-2. Change the main directory of Encryption and Decryiption with ur local directory
+2. Modify and adjust the storage path for the encryption and decryption results to match the local storage layout of the system you are building.
 3. Encryption, decryption and key results are saved in the specified default folder.
 4. The key must be well hidden so that others cannot decipher it
 5. The program can only process one image/file.enc at a time. So if you want to encode different images you have to change the source image periodically
@@ -40,5 +40,7 @@ If you have any suggestions or comments, please express them in a more modern co
 thank you for using. Enjoy our program:
 
 credit :
-"Group 33"
- 
+Project Group 33
+RyZal. 
+Lost1101 
+Revlizn12
