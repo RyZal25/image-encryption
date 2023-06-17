@@ -1,33 +1,39 @@
 # image-encryption
 Using python language to encrypt data. The algorithm that we implemented in this project is AES (Advance Encryption Standard) using CBC Mode. We Do Double Encryption of which data will be encrypted on the data so that we get a more secure type of data. We are very happy that someone will make some improvements or use the main logic of our code >.&lt;
 
-PERLU DIBACA!!
-INI ADALAH GUIDE UNTUK PROGRAM IMAGE ENCRYPTION
+MUST READ!!
+A GUIDE TO IMAGE ENCRYPTION PROGRAMS.
 
-Alert :
-1. Bentuk file yang disupport hanya image extension berupa .png, .jpg, dan .jpeg
-2. Hasil dari enkripsi, dekripsi, dan key disimpan dalam folder default yang sudah disediakan
-3. Anda harus menyembunyikan key nya dengan baik agar sulit untuk didekripsi oleh orang lain
-4. Program hanya bisa handle satu per satu gambar/file.enc, sehingga jika ingin enkripsi image berbeda, anda harus mengganti source image secara berkala
+NOTES:
 
-Langkah Enkripsi :
-1. Cari gambar dengan menekan tombol
-2. Input nama untuk file .enc nya
-3. Masukkan nama untuk file key .txt nya
-4. Jika sudah, anda bisa tekan Enkripsi!! untuk mengenkripsi
-5. File .enc tersimpan di folder "Hasil Enkripsi" dan key tersimpan di folder "Key"
+1. File formats supported are only .png, .jpg and .jpeg image extensions.
+2. Encryption, decryption and key results are saved in the specified default folder.
+3. The key must be well hidden so that others cannot decipher it
+4. The program can only process one image/file.enc at a time. So if you want to encode different images you have to change the source image periodically
 
-Langkah Dekripsi :
-1. Cari .enc yang diinginkan untuk dipulihkan menjadi gambar aslinya
-2. Input nama untuk hasil dekripsi (contoh = 'hasil.jpg'), usahakan ekstensi file sama seperti aslinya (misalkan file asli = .jpg, maka dekripsi juga harus berekstensi .jpg)
-3. Masukkan key yang sudah anda sembunyikan pada key.py (di dalam variabel Keys)
-4. Jika sudah selesai, tekan Dekripsi!!
-5. Gambarnya akan disimpan didalam folder "Hasil Dekripsi"
+Encryption step:
 
-Note :
-Program masih bersifat dalam pengembangan, segala macam perubahan dan optimalisasi serta modifikasi sangat diharapkan
-Jika ada saran dan masukan lanjutan silahkan ekspresikan kedalam bentuk kode yang lebih mutakhir
+1. Press the button to search for images
+2. Enter the name of the .enc file.
+3. Enter the name of the key TXT file
+4. If yes, click Encrypt. encrypt
+5. The .enc file will be saved in the Encryption Result folder and the key will be saved in the Key folder.
 
-Terimakasih telah menggunakan, and enjoy our program :)
+Step description:
 
-Credit : "Kelompok 33"
+1. Find the desired .enc file and restore the original image
+2. Enter a name for the decrypted result (e.g. = "hasil.jpg") and make sure the file extension is the same as the original file (e.g. if original = .jpg then decrypt The resulting extension must also be .jpg). . )
+3. Enter the hidden key in key.py (Keys variable).
+4. Press "Decryption!!" when done.
+5. The image is saved in the "decryption result" folder
+
+remarks:
+
+The program is still in development, so all kinds of changes, optimizations and fixes are expected
+If you have any suggestions or comments, please express them in a more modern code format.
+
+thank you for using. Enjoy our program:
+
+credit :
+"Group 33"
+ 
