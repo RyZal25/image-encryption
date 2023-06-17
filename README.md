@@ -32,7 +32,11 @@ Step description:
 4. Press "Decryption!!" when done.
 5. The image is saved in the "decryption result" folder
 
-remarks:
+Remarks:
+
+Please note that this code cannot be directly executed as it requires additional environment setup and configuration. Therefore, please adjust the paths and other attributes mentioned in the guide according to your specific environment.
+
+
 
 The program is still in development, so all kinds of changes, optimizations and fixes are expected
 If you have any suggestions or comments, please express them in a more modern code format.
