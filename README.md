@@ -49,7 +49,7 @@ Step description:
 4. Press "Decryption!!" when done.
 5. The image is saved in the "decryption result" folder
 
-# 🔭 REMARKS
+# ⚠️ REMARKS
 
 Please note that this code cannot be directly executed as it requires additional environment setup and configuration. Therefore, please adjust the paths and other attributes mentioned in the guide according to your specific environment.
 
